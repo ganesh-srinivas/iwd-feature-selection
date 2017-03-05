@@ -1,0 +1,17 @@
+dataset		features drops	iter	etc		  svm			
+hepa.csv	5/19     100	50	--exponential 0.5 rbf,gamma=0.1,C=100
+('globalBestPath: ', [11, 4, 3, 8, 0])
+('globalBestAcc: ', 0.74263736263736269)
+testAccuracy : 0.7
+
+
+hepa.csv	5/19	 50	100	--exponential0.99 rbf,gamma=0.1,C=100
+('globalBestPath: ', [4, 13, 12, 11, 5])
+('globalBestAcc: ', 0.74208791208791214)
+testAccuracy : 0.65
+
+
+vaccine		20	10	20	--linear1.5 rbf,gamma=0.1,C=100
+Accuracy : .80
+
+
